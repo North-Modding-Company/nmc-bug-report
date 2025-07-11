@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Out of Ore Bug Report</title>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="images/NMC_color_favicon.png" sizes="32x32">
+    <style>
+        body {
+            font-family: 'Barlow Condensed', sans-serif;
+            background-color: #353535;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+        header {
+            background-color: #cea141;
+            width: 100%;
+            text-align: center;
+            padding: 40px 0;
+        }
+        header h1 {
+            margin: 0;
+            color: #353535;
+            font-weight: 600;
+            font-size: 4rem;
+        }
+        .content {
+            text-align: center;
+            margin: 50px;
+        }
+        .content p {
+            color: #ddd;
+            font-size: 2rem;
+        }
+        .content a.game-link {
+            color: #cea141;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 2rem;
+        }
+        .content a.game-link:hover {
+            text-decoration: underline;
+        }
+        .report-btn {
+            background-color: #cea141;
+            color: #353535;
+            padding: 20px 40px;
+            border: 2px solid #353535;
+            border-radius: 12px;
+            font-size: 2rem;
+            font-weight: 600;
+            cursor: pointer;
+            text-decoration: none;
+            box-shadow: 0 8px 12px rgba(0, 0, 0, 0.3);
+            transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+            display: inline-block;
+            background-image: linear-gradient(to bottom, #e0b456, #cea141);
+        }
+        .report-btn:hover {
+            background-color: #d8b25a;
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px rgba(0, 0, 0, 0.4);
+        }
+        .report-btn:active {
+            transform: translateY(2px);
+        }
+        footer {
+            color: #888;
+            margin-top: 50px;
+            font-size: 1.5rem;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Out of Ore - Bug Reporting</h1>
+</header>
+
+<div class="content">
+    <p>We appreciate your help in reporting any bugs or issues you encounter in <a href="https://store.steampowered.com/app/2009350/Out_of_Ore/" class="game-link" target="_blank"><strong>Out of Ore</strong></a>.</p>
+    <a href="#" id="myCustomTrigger" class="report-btn">Click Here To Report a Bug</a>
+</div>
+
+<footer>
+    <p>&copy; 2024 North Modding Company AB</p>
+</footer>
+
+<script type="text/javascript" src="https://northmoddingcompany.atlassian.net/s/d41d8cd98f00b204e9800998ecf8427e-T/-oo8t1n/b/8/c95134bc67d3a521bb3f4331beb9b804/_/download/batch/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector.js?locale=en-US&collectorId=552e5ba0"></script>
+
+<script type="text/javascript">
+    window.ATL_JQ_PAGE_PROPS = {
+        "triggerFunction": function(showCollectorDialog) {
+            jQuery("#myCustomTrigger").click(function(e) {
+                e.preventDefault();
+                showCollectorDialog();
+            });
+        }
+    };
+</script>
+
+</body>
+</html>
